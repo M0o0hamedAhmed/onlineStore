@@ -5,4 +5,8 @@ name => required , string , max : 100 => varchar
 desc => required , string , text 
 price => required , numweric => double 
 img => required , string , max: 100  
-created at => required  date time
+created at => required  date time  ;
+
+
+
+

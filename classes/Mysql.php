@@ -9,7 +9,7 @@ class Mysql
         $this->servername = 'localhost';
         $this->db_username = 'root';
         $this->db_password = '';
-        $this->db_name = 'onlineshop';
+        $this->db_name = 'onlinestore';
 
         $mysqli = new mysqli($this->servername, $this->db_username, $this->db_password, $this->db_name);
         return  $mysqli;
